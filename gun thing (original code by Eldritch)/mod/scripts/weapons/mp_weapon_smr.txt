@@ -104,10 +104,10 @@ WeaponData
 		"aimassist_adspull_weaponclass"					"broad"
 
 		// Damage - When Used by Players
-		"damage_near_value"   							"8"
-		"damage_far_value"								"34"
-		"damage_near_value_titanarmor"					"40
-		"damage_far_value_titanarmor" 					"60
+		"damage_near_value"   							"25"
+		"damage_far_value"								"40"
+		"damage_near_value_titanarmor"					"40"
+		"damage_far_value_titanarmor" 					"60"
 		"damage_rodeo" 									"170"
 		"damage_near_distance"							"1000
 		"damage_far_distance" 							"1600
@@ -131,7 +131,7 @@ WeaponData
 
 		"enable_highlight_networking_on_creation"		"<KEEP_DEFAULT>"
 
-		"viewkick_air_scale_ads"						"2"
+		"viewkick_air_scale_ads"						"1.5"
 
 		"damage_heavyarmor_nontitan_scale"				"0.35"
 
