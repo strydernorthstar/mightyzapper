@@ -173,7 +173,7 @@ WeaponData
 
 		"enable_highlight_networking_on_creation"		"1"
 
-		"viewkick_air_scale_ads"						"1"
+		"viewkick_air_scale_ads"						"0.6"
 
 		"damage_heavyarmor_nontitan_scale"				"1"
 
