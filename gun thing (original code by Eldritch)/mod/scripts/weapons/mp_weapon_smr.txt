@@ -106,11 +106,11 @@ WeaponData
 		// Damage - When Used by Players
 		"damage_near_value"   							"8"
 		"damage_far_value"								"34"
-		"damage_near_value_titanarmor"					"80"
-		"damage_far_value_titanarmor" 					"150"
+		"damage_near_value_titanarmor"					"40
+		"damage_far_value_titanarmor" 					"60
 		"damage_rodeo" 									"170"
-		"damage_near_distance"							"1400"
-		"damage_far_distance" 							"2400"
+		"damage_near_distance"							"1000
+		"damage_far_distance" 							"1600
 
    	 	"damage_very_far_value"							"44"
    		"damage_very_far_distance"						"3000"
@@ -206,7 +206,7 @@ WeaponData
 
 
 	// Behavior
-	"fire_rate"   									"40"
+	"fire_rate"   									"20"
 	
 	
 	"burst_fire_count"								"1"
@@ -276,19 +276,19 @@ WeaponData
 	"viewkick_spring" 								"car"
 
 	"viewkick_pitch_base" 							"-0.001"
-	"viewkick_pitch_random"   						"0.5"
-	"viewkick_pitch_softScale"						"0.65"
-	"viewkick_pitch_hardScale"						"1.0"
+	"viewkick_pitch_random"   						"2"
+	"viewkick_pitch_softScale"						"2"
+	"viewkick_pitch_hardScale"						"1.5"
 
-	"viewkick_yaw_base"   							"0.1"
-	"viewkick_yaw_random" 							"0.7"
-	"viewkick_yaw_softScale"  						"0.75"
-	"viewkick_yaw_hardScale"  						"0.5"
+	"viewkick_yaw_base"   							"0.6
+	"viewkick_yaw_random" 							"1.0
+	"viewkick_yaw_softScale"  						"1.50
+	"viewkick_yaw_hardScale"  						"1.80
 
-	"viewkick_roll_base"  							"0.5"
-	"viewkick_roll_randomMin" 						"0.2"
-	"viewkick_roll_randomMax" 						"0.25"
-	"viewkick_roll_softScale" 						"0.2"
+	"viewkick_roll_base"  							"1.0
+	"viewkick_roll_randomMin" 						"0.7
+	"viewkick_roll_randomMax" 						"0.80
+	"viewkick_roll_softScale" 						"0.6
 	"viewkick_roll_hardScale" 						"1.95"
 
 	"viewkick_hipfire_weaponFraction" 				"0.65"
