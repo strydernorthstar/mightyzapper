@@ -41,9 +41,9 @@ WeaponData
 	"vortex_absorb_sound_1P_VS_3P"					"Vortex_Shield_AbsorbBulletSmall_1P_VS_3P"
 	"projectile_adjust_to_gun_barrel"				"1"
 
-	"sound_dryfire"									"Hemlok_smg_dryfire"
+	"sound_dryfire"									"HemlokSMG_dryfire"
 	"sound_pickup"									"wpn_pickup_SMG_1P"
-	"sound_trigger_pull"							"Weapon_Hemlok_smg_Trigger"
+	"sound_trigger_pull"							"Weapon_Hemloksmg_Trigger"
 	"sound_zoom_in"									"Weapon_r97_ADS_In"
 	"sound_zoom_out"								"Weapon_r97_ADS_Out"
 
@@ -59,26 +59,26 @@ WeaponData
 	"fire_sound_1_player_1p"						"Weapon_bulletCasings.Bounce"
 	"fire_sound_1_player_3p"						"Weapon_bulletCasings.Bounce"
 
-	"burst_or_looping_fire_sound_start_1p"			"Weapon_Hemlok_FirstShot_1P"
+	"burst_or_looping_fire_sound_start_1p"			"Weapon_HemlokSMG_FirstShot_1P"
 	"burst_or_looping_fire_sound_middle_1p"			""
 	"burst_or_looping_fire_sound_end_1p"			"Weapon_HemlokSMG_Fire_Last_1P"
 
-	"burst_or_looping_fire_sound_start_3p"			"Weapon_Hemlok_FirstShot_3P"
+	"burst_or_looping_fire_sound_start_3p"			"Weapon_HemlokSMG_FirstShot_3P"
 	"burst_or_looping_fire_sound_middle_3p"			""
 	"burst_or_looping_fire_sound_end_3p"			"Weapon_HemlokSMG_Fire_Last_3P"
 
-	"burst_or_looping_fire_sound_start_npc"			"Weapon_Hemlok_FirstShot_npc"
+	"burst_or_looping_fire_sound_start_npc"			"Weapon_HemlokSMG_FirstShot_npc"
 	"burst_or_looping_fire_sound_middle_npc"		""
 	"burst_or_looping_fire_sound_end_npc"			"Weapon_HemlokSMG_Fire_Last_NPC"
 
-	"low_ammo_sound_name_2"							"Hemlok_LowAmmo_Shot1"
-	"low_ammo_sound_name_3"							"Hemlok_LowAmmo_Shot1"
-	"low_ammo_sound_name_4"							"Hemlok_LowAmmo_Shot2"
-	"low_ammo_sound_name_5"							"Hemlok_LowAmmo_Shot2"
+	"low_ammo_sound_name_2"							"HemlokSMG_LowAmmo_Shot1"
+	"low_ammo_sound_name_3"							"HemlokSMG_LowAmmo_Shot1"
+	"low_ammo_sound_name_4"							"HemlokSMG_LowAmmo_Shot2"
+	"low_ammo_sound_name_5"							"HemlokSMG_LowAmmo_Shot2"
 	"low_ammo_sound_name_6"							"Hemlok_LowAmmo_Shot2"
-	"low_ammo_sound_name_7"							"Hemlok_LowAmmo_Shot3"
-	"low_ammo_sound_name_8"							"Hemlok_LowAmmo_Shot3"
-	"low_ammo_sound_name_9"							"Hemlok_LowAmmo_Shot3"
+	"low_ammo_sound_name_7"							"HemlokSMG_LowAmmo_Shot3"
+	"low_ammo_sound_name_8"							"HemlokSMG_LowAmmo_Shot3"
+	"low_ammo_sound_name_9"							"HemlokSMG_LowAmmo_Shot3"
 
 	// Network
 	"net_optimize"		                            "1"
@@ -206,17 +206,17 @@ WeaponData
 
 
 	// Behavior
-	"fire_rate"   									"8"
+	"fire_rate"   									"6"
 	
 	
 	"burst_fire_count"								"1"
 	"burst_fire_delay"								"0.05"
 	"zoom_time_in"									"0.3"
 	"zoom_time_out"   								"0.25"
-	"zoom_fov"										"35"
-	"reload_time" 									"2.1"
-	"reload_time_late1"								"2.1"
-	"reloadempty_time"								"2.1"
+	"zoom_fov"										"25"
+	"reload_time" 									"1.8"
+	"reload_time_late1"								"1.8"
+	"reloadempty_time"								"1.8"
 	"reloadempty_time_late1"						"2.10"
 	"reloadempty_time_late2"						"1.11"
 	"holster_time"									"0.6"
@@ -230,7 +230,7 @@ WeaponData
 	"empty_reload_only"   							"0"
 	"trigger_snipercam"   							"0"
 	"allow_headshots" 								"1"
-	"headshot_distance" 							"1100"
+	"headshot_distance" 							"5000"
 	"ads_move_speed_scale"							"0.5"
 	"aimassist_disable_hipfire"						"0"
 	"aimassist_disable_ads"							"0"
@@ -413,11 +413,11 @@ WeaponData
 
 	// Bodygroups:
 	"bodygroup1_name"	"sight_on"
-	"bodygroup1_set"	"1"
+	"bodygroup1_set"	"0"
 	"bodygroup2_name"	"sight_acgs"
 	"bodygroup2_set"	"0"
 	"bodygroup3_name"	"sight_cro"
-	"bodygroup3_set"	"0"
+	"bodygroup3_set"	"1"
 	"bodygroup4_name"	"sight_holo"
 	"bodygroup4_set"	"0"
 	// "bodygroup5_name"	"suppressor_cyl_med"
