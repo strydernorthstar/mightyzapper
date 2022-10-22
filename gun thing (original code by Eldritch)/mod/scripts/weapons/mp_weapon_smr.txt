@@ -1,7 +1,7 @@
 WeaponData
 {
 	// General
-	"printname"   									"A.T.-I Model V"
+	"printname"   									"A.T.-I Model VI"
 	"shortprintname"   								"A.T.P.G."
 	"description" 									"This gun's shots accelerate"
 	"longdesc"										"This gun's shots accelerate. It is also usable as an anti titan weapon."
@@ -41,9 +41,9 @@ WeaponData
 	"vortex_absorb_sound_1P_VS_3P"					"Vortex_Shield_AbsorbBulletSmall_1P_VS_3P"
 	"projectile_adjust_to_gun_barrel"				"1"
 
-	"sound_dryfire"									"Hemlok_dryfire"
+	"sound_dryfire"									"Hemlok_smg_dryfire"
 	"sound_pickup"									"wpn_pickup_SMG_1P"
-	"sound_trigger_pull"							"Weapon_Hemlok_Trigger"
+	"sound_trigger_pull"							"Weapon_Hemlok_smg_Trigger"
 	"sound_zoom_in"									"Weapon_r97_ADS_In"
 	"sound_zoom_out"								"Weapon_r97_ADS_Out"
 
