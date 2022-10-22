@@ -20,7 +20,7 @@ WeaponData
     "damage_flags"									"DF_BULLET | DF_INSTANT | DF_DISMEMBERMENT"
 
 	// Menu
-	"menu_category"                                 "smg"
+	"menu_category"                                 "lmg"
 	"menu_anim_class"                               "medium"
 	"stat_damage" 									"75" //FIX FIX FIX FIX FIX FIX FIX FIX FIX
 	"stat_range"  									"65"
