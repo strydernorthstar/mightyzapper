@@ -4,7 +4,7 @@
 	"LoadPriority": 2,
 	"Authors": ["code stolen from Eldritch utilized by Stryder"],
 	"Version": "1.1.2",
-	"RequiredOnClient": false,
+	"RequiredOnClient": true,
 	
 	"Scripts": [
 		{
