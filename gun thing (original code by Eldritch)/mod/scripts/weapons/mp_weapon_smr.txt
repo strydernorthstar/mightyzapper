@@ -1,10 +1,10 @@
 WeaponData
 {
 	// General
-	"printname"   									"FunnyRangeZapper"
-	"shortprintname"   								"Funny range zapper"
+	"printname"   									"A.T.-I Model V"
+	"shortprintname"   								"A.T.P.G."
 	"description" 									"This gun's shots accelerate"
-	"longdesc"										"This gun's shots accelerate so up close its a peashooter but when far it is a rapidfire sniper"
+	"longdesc"										"This gun's shots accelerate. It is also usable as an anti titan weapon."
 
 	"menu_icon"										"r2_ui/menus/loadout_icons/primary_weapon/primary_volt"
 	"hud_icon"										"r2_ui/menus/loadout_icons/primary_weapon/primary_volt"
