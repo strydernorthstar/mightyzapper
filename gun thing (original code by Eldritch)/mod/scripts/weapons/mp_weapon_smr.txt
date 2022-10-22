@@ -213,7 +213,7 @@ WeaponData
 	"burst_fire_delay"								"0.05"
 	"zoom_time_in"									"0.3"
 	"zoom_time_out"   								"0.25"
-	"zoom_fov"										"40"
+	"zoom_fov"										"35"
 	"reload_time" 									"1.8"
 	"reload_time_late1"								"1.8"
 	"reloadempty_time"								"1.8"
