@@ -213,7 +213,7 @@ WeaponData
 	"burst_fire_delay"								"0.05"
 	"zoom_time_in"									"0.3"
 	"zoom_time_out"   								"0.25"
-	"zoom_fov"										"25"
+	"zoom_fov"										"40"
 	"reload_time" 									"1.8"
 	"reload_time_late1"								"1.8"
 	"reloadempty_time"								"1.8"
@@ -464,15 +464,15 @@ WeaponData
 		}
 		holosight
 		{
-			"bodygroup1_set"	    "0"
-			"bodygroup2_set"	    "0"
-			"bodygroup3_set"	    "0"
-			"bodygroup4_set"	    "0"
+			"bodygroup1_set"	    "1"
+			"bodygroup2_set"	    "1"
+			"bodygroup3_set"	    "1"
+			"bodygroup4_set"	    "1"
 			"bodygroup5_set"	    "1"
 			//"anim_alt_idleAttack"   "2"
 			"zoom_fov"			    "38"
-			"ui1_enable"		"0"
-			"ui2_enable"		"0"
+			"ui1_enable"		"1"
+			"ui2_enable"		"1"
 
 			"dof_zoom_nearDepthStart"						"5.000"
 			"dof_zoom_nearDepthEnd"							"11.000"
@@ -721,7 +721,7 @@ WeaponData
 		Crosshair_1
 		{
 			"ui"						"ui/crosshair_tri"
-			"base_spread"				"2.0"
+			"base_spread"				"1.5"
 			Args
 			{
 				//isFiring				weapon_is_firing
