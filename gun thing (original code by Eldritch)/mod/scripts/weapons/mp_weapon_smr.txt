@@ -105,15 +105,15 @@ WeaponData
 
 		// Damage - When Used by Players
 		"damage_near_value"   							"8"
-		"damage_far_value"								"49"
+		"damage_far_value"								"34"
 		"damage_near_value_titanarmor"					"80"
 		"damage_far_value_titanarmor" 					"150"
 		"damage_rodeo" 									"170"
 		"damage_near_distance"							"1400"
-		"damage_far_distance" 							"1700"
+		"damage_far_distance" 							"2400"
 
-   	 	"damage_very_far_value"							"65"
-   		"damage_very_far_distance"						"1800"
+   	 	"damage_very_far_value"							"44"
+   		"damage_very_far_distance"						"3000"
 
 		"damage_headshot_scale"							"1.4"
 
