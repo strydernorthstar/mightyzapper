@@ -1,0 +1,22 @@
+{
+	"Name": "Stryder's funnygun",
+	"Description": "Adds a range based smg",
+	"LoadPriority": 2,
+	"Authors": ["code stolen from Eldritch utilized by Stryder"],
+	"Version": "1.1.2",
+	"RequiredOnClient": false,
+	
+	"Scripts": [
+		{
+			"Path": "zapper_precache.gnut",
+			"RunOn": "( CLIENT || SERVER ) && MP",
+			"ClientCallback": {
+				"After": "NorthstarCustomPrecacheTest"
+			},
+			
+			"ServerCallback": {
+				"After": "NorthstarCustomPrecacheTest"
+			}
+		}
+	]
+}

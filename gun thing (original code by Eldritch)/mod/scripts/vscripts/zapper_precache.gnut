@@ -1,0 +1,9 @@
+untyped
+global function NorthstarCustomPrecacheTest
+
+void function NorthstarCustomPrecacheTest()
+{
+	
+        PrecacheWeapon( "mp_weapon_zapper" )
+	
+}
