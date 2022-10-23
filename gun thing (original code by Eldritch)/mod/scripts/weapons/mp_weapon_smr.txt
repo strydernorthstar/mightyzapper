@@ -659,7 +659,7 @@ WeaponData
 		}
 	}
 
-	"ui6_enable"		"0"
+	"ui6_enable"		"1"
 	"ui6_draw_cloaked"	"1"
 	UiData6
 	{
@@ -721,7 +721,7 @@ WeaponData
 		Crosshair_1
 		{
 			"ui"						"ui/crosshair_tri"
-			"base_spread"				"1.5"
+			"base_spread"				"0.3"
 			Args
 			{
 				//isFiring				weapon_is_firing
